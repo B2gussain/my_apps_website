@@ -20,7 +20,6 @@ export default function AppHeader({ app }) {
 
         <a
           href={app.apkUrl}
-          download
           className="flex h-10 items-center gap-2 rounded-full px-5 text-sm font-medium text-white transition-opacity hover:opacity-90"
           style={{ backgroundColor: app.accent }}
         >

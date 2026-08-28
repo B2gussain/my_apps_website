@@ -38,7 +38,6 @@ export default function AppDetailCalculator({ app }) {
             <div className="flex  gap-3 flex-row">
               <a
                 href={app.apkUrl}
-                download
                 className="flex h-12 items-center justify-center gap-2 rounded-full px-6 text-sm font-medium text-white transition-opacity hover:opacity-90"
                 style={{ backgroundColor: app.accent }}
               >
@@ -177,7 +176,6 @@ export default function AppDetailCalculator({ app }) {
             <div className="flex flex-col w-full sm:w-auto items-center gap-3 sm:items-end">
               <a
                 href={app.apkUrl}
-                download
                 className="flex h-12 sm:w-auto w-full items-center justify-center gap-2 rounded-full bg-white px-6 text-sm font-medium transition-opacity hover:opacity-90"
                 style={{ color: app.accent }}
               >
