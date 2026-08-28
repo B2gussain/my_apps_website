@@ -38,10 +38,10 @@ export default function AppDetailVault({ app }) {
               {page.intro}
             </p>
 
-            <div className="flex gap-3 flex-row">
+            <div className="flex w-full gap-3 flex-row">
               <a
                 href={app.apkUrl}
-                className="flex h-12 items-center justify-center gap-2 rounded-full px-6 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                className="flex flex-1 sm:flex-none h-12 items-center justify-center gap-2 rounded-full px-6 text-sm font-medium text-white transition-opacity hover:opacity-90"
                 style={{ backgroundColor: app.accent }}
               >
                 Download APK
@@ -49,7 +49,7 @@ export default function AppDetailVault({ app }) {
               </a>
               <a
                 href="#features"
-                className="flex h-12 items-center justify-center rounded-full border border-zinc-200 bg-white px-6 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-50"
+                className="sm:flex hidden h-12 items-center justify-center rounded-full border border-zinc-200 bg-white px-6 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-50"
               >
                 View Features
               </a>

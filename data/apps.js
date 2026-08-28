@@ -170,7 +170,8 @@ export const apps = [
       ],
       ctaEyebrow: "VAULT FOR ANDROID",
       ctaHeading: "Download Vault and keep your passwords organized.",
-      ctaText: "A quiet, focused place for your most important account details.",
+      ctaText:
+        "A quiet, focused place for your most important account details.",
       ctaMeta: "Android APK · Version 1.0 · Privacy-first by design",
     },
   },

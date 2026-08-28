@@ -71,17 +71,17 @@ export default function Home() {
               design, fast to use, and beautiful in the moments that matter.
             </p>
 
-            <div className="flex  gap-3 flex-row">
+            <div className="flex w-full  gap-3 flex-row">
               <a
                 href="#apps"
-                className="flex h-12 items-center justify-center gap-2 rounded-full bg-blue-600 px-6 text-sm font-medium text-white transition-opacity hover:opacity-90"
+                className="flex flex-1 sm:flex-none h-12 items-center justify-center gap-2 rounded-full bg-blue-600 px-6 text-sm font-medium text-white transition-opacity hover:opacity-90"
               >
                 Explore Apps
                 <ArrowDownIcon className="h-4 w-4" />
               </a>
               <a
                 href="#about"
-                className="flex h-12 items-center justify-center rounded-full border border-zinc-200 bg-white px-6 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-50"
+                className="sm:flex hidden h-12 items-center justify-center rounded-full border border-zinc-200 bg-white px-6 text-sm font-medium text-zinc-900 transition-colors hover:bg-zinc-50"
               >
                 About Developer
               </a>
