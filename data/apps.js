@@ -9,7 +9,8 @@ export const apps = [
     accent: "#6366f1", // indigo
     version: "1.0.0",
     size: "108.4 MB",
-    apkUrl: "/apks/Vault.apk",
+    apkUrl:
+      "https://github.com/B2gussain/my_apps_website/releases/download/v1.0.0/Vault.apk",
     // Homepage "collection" card copy
     badge: "PASSWORD MANAGER",
     blurb:
@@ -181,7 +182,8 @@ export const apps = [
     accent: "#2563eb", // blue
     version: "1.0.0",
     size: "81.7 MB",
-    apkUrl: "/apks/Calculator.apk",
+    apkUrl:
+      "https://github.com/B2gussain/my_apps_website/releases/download/v1.0.0/Calculator.apk",
     // Homepage "collection" card copy
     badge: "EVERYDAY TOOL",
     blurb:
